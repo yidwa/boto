@@ -1,7 +1,7 @@
 import boto.ec2
 
-access_key = 'AKIAIDTFJCQUW6AW7LDA'
-secret_access_key='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'
+#access_key = 'AKIAIDTFJCQUW6AW7LDA'
+#secret_access_key='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'
 conn = boto.ec2.connect_to_region("us-west-2", aws_access_key_id = 'AKIAIDTFJCQUW6AW7LDA',
                           aws_secret_access_key= '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')
 
