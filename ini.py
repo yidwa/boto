@@ -19,4 +19,4 @@ reservations = conn.get_all_reservations()
 instances = reservations[0].instances
 inst = instances[0]
 
-print(inst.instance_type)
+#print(inst.instance_type)
